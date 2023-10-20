@@ -1,0 +1,124 @@
+/* home.css */
+
+.inner-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-box-w {
+  align-items: center;
+  padding-left: 20%;
+}
+
+.video-list {
+  background-color: #222;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  gap: 40px;
+  padding: 80px;
+  height: 600px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 400px;
+  height: 250px;
+  ; /* Space between cards vertically */
+ 
+}
+
+.bid-container {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+}
+
+.video-section {
+  flex: 1;
+  height: 60%;
+  width: 20%;
+  padding: 6%;
+  /* Optional: Add more styling as needed */
+}
+
+.content-section {
+  flex: 1;
+  /* Optional: Add more styling as needed */
+}
+
+.inner-content{
+
+  background-color: #222;
+ 
+  height: 70vh;
+  margin: 12vh;
+  width: 35vw;
+  border: #6e42e5;
+  display: flex;
+  flex-direction: column;
+  
+  border-radius: 8px;
+}
+
+.inner-text{
+
+  position:relative;
+  width: 93%;
+  height: 70px;
+  background-color: #000;
+  padding: 10px;
+  margin: 2%;
+
+
+}
+.inner-text-1{
+
+  position:relative;
+  width: 93%;
+  height: 60px;
+  background-color: #000;
+  padding: 10px;
+  margin: 2%;
+  color: #fff;
+  font-weight: 800;
+  font-size: 23px;
+
+  align-content: center;
+  justify-content: center;
+
+
+}
+video {
+  object-fit: cover; /* This will make the video cover the entire .video-section */
+}
+
+.button-2{
+   
+  border-radius: 30px;
+  display: flex;
+  float: right;
+  width: 300px;
+  justify-content: center;
+   line-height: 140%;
+   border-radius: 6px;
+   background-color: #6e42e5;
+   font-family: Inter;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   border-radius: 10px;
+   margin: 4%;
+
+   
+ }
+
+
+
+
