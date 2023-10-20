@@ -1,0 +1,132 @@
+.header {
+    /* background-color: black; */
+    height: 35px;
+    padding: 20px;
+    
+    text-align: center;
+    display: flex;
+   
+    border-bottom: 20px;
+    border-color: aliceblue;
+    
+    animation: backgroundColorChange 5s linear infinite;
+    background: url(grid.png);
+    
+  }
+
+  @keyframes backgroundColorChange {
+    0% {
+      background-color: #ff5733; /* Color 1 */
+    }
+    25% {
+      background-color: #33ff57; /* Color 2 */
+    }
+    50% {
+      background-color: #5733ff; /* Color 3 */
+    }
+    75% {
+      background-color: #ff5733; /* Color 4 */
+    }
+    100% {
+      background-color: #33ff57; /* Color 5 */
+    }
+  }
+
+  .footer {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: url(clip.jpg);
+    background-size: cover;
+    font-size: 90px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f7f4f4;
+    
+  }
+
+  .about{
+    /* background-color: rgb(255, 249, 249); */
+    background: url(grid.png);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    animation: backgroundColorChange 5s linear infinite;
+  }
+
+  p{
+    margin: 50px ;
+  }
+
+  .button{
+    width:70%;
+    align-items: center;
+    background: #6e42e5;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 10px;
+    justify-content: center;
+    line-height: 140%;
+    padding: 8px 16px;
+    float:right;
+    
+    margin-left:12px;
+    border: none;
+  cursor: pointer;
+ 
+  }
+  .button-1{
+   
+   border-radius: 30px;
+   display: flex;
+   float: right;
+   width: 290px;
+   justify-content: center;
+    line-height: 140%;
+    border-radius: 6px;
+    background-color: #222;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 10%;
+    
+  }
+
+  .logo {
+    margin-right: 8px;
+    font-weight: bold;
+    ;
+    width:30%;
+    color: white;
+    justify-content: center;
+    line-height: 140%;
+    padding: 8px 16px;
+    display:flex;
+  }
+
+  .line {
+
+    background-color: #222;
+    height: 0.5px;
+    width : 100%;
+    
+  }
+
+ 
